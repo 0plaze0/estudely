@@ -8,7 +8,7 @@ function App() {
     <main className="App">
       <section className="container">
         <h3>Applications</h3>
-        <List data={data} />
+        <List data={data} setData={setData} />
       </section>
     </main>
   );
